@@ -1,0 +1,70 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="CanvasManager">
+			<method name="OnClickSalir"/>
+			<method name="OnClickSalir"/>
+			<method name="OnClickSalir"/>
+			<method name="OnClickSalir"/>
+		</type>
+		<type fullname="CanvasShopManager">
+			<method name="ClickBotonVolver"/>
+		</type>
+		<type fullname="GestorMenuPausa">
+			<method name="onClickResume"/>
+			<method name="onClickResume"/>
+			<method name="onClickResume"/>
+			<method name="onClickSalir"/>
+			<method name="onClickSalir"/>
+			<method name="onClickSalir"/>
+		</type>
+		<type fullname="MenuPrincipalCanvasManager">
+			<method name="OnClickAyuda"/>
+			<method name="OnClickPlay"/>
+			<method name="OnclickVolverDeAyuda"/>
+		</type>
+		<type fullname="TarjetaOpcionTienda">
+			<method name="onClick"/>
+			<method name="onClick"/>
+			<method name="onClick"/>
+			<method name="onClick"/>
+			<method name="onClick"/>
+			<method name="onClick"/>
+			<method name="onClick"/>
+			<method name="onClick"/>
+		</type>
+		<type fullname="TarjetaUpgrade">
+			<method name="onClick"/>
+			<method name="onClick"/>
+			<method name="onClick"/>
+			<method name="onClick"/>
+			<method name="onClick"/>
+			<method name="onClick"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerButton">
+			<method name="OnAction"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField">
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerPanel">
+			<method name="OnScrollbarClicked"/>
+			<method name="OnScrollbarClicked"/>
+			<method name="ResetDebugManager"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerUIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+	</assembly>
+</linker>
